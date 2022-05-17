@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+        
+}
+a{
+    text-decoration: none;
+    cursor: pointer; 
+}
+header{
+    background-color: aqua;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 35px 100px 0px;  */
+   
+}
+
+header nav{
+   
+    display: flex;
+    
+    list-style: none;
+   
+}
+
+header nav li{
+
+    margin: 1rem 1rem;
+  
+}
+header h1{
+    color: brown;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+}    
+
+.flash{
+background-color: blueviolet;
+border-radius: 2px;
+border: 0;
+padding: 0,3rem;
+margin: 1rem;
+}
+
+/* hasta aqui el header */
+
+.caripelacircle{
+    width:200px;
+    height: 200px;
+    border-radius:130px;
+    border:8px solid #666;
+    margin-top:2rem;
+}
+.textocara{
+    color: dimgray;
+    text-transform:none;
+    text-decoration-color: yellowgreen;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+
+}
+
+hr{
+background-color: wheat;
+width: 100%;
+height: 2px;
+border: 0;
+
+}
+h2{
+    color: chocolate;
+    text-align: center;
+    text-shadow: -2px -2px 1px #000;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    padding: 1rem 0rem;
+    background-color: burlywood;
+
+
+}
